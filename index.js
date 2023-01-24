@@ -42,18 +42,29 @@ function addGamesToPage(games) {
         // about each game
         // TIP: if your images are not displaying, make sure there is space
         // between the end of the src attribute and the end of the tag ("/>")
-        game_card.innerHTML = `<h3>${element.name}<br></h3>
-                                ${element.description}<br>
-                                <img class="game-img" src=${element.img} />`;
+        game_card.innerHTML = `<img class="game-img" src=${element.img} />
+                                <h3>${element.name}<br></h3>
+                                ${element.description}<br>`;
+
+        /*
+        const game_popup = document.createElement("div");
+        game_popup.classList.add("game-popup");
+        //game_popup.setAttribute("id", "current-game")
+        //game_popup.setAttribute("style", "display: none");
+        game_popup.innerHTML = `<p>${element.description}</p>`;
+        game_card.appendChild(game_popup);
+        */
+        
 
         // append the game to the games-container
         document.getElementById("games-container").append(game_card);
+        //document.getElementById("games-container").append(game_popup)
     }
 }
 
 // call the function we just defined using the correct variable
 // later, we'll call this function using a different list of games
-addGamesToPage(GAMES_JSON)
+addGamesToPage(GAMES_JSON);
 
 /*************************************************************************************
  * Challenge 4: Create the summary statistics at the top of the page displaying the
