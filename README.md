@@ -2,18 +2,18 @@
 
 Submitted by: **Kelvin Zhao**
 
-**Name of your app** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
+**KrakenFunding** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
 
-Time spent: **X** hours spent in total
+Time spent: **9** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-* [ ] The introduction section explains the background of the company and how many games remain unfunded.
-* [ ] The Stats section includes information about the total contributions and dollars raised as well as the top two most funded games.
-* [ ] The Our Games section initially displays all games funded by Sea Monster Crowdfunding
-* [ ] The Our Games section has three buttons that allow the user to display only unfunded games, only funded games, or all games.
+* [x] The introduction section explains the background of the company and how many games remain unfunded.
+* [x] The Stats section includes information about the total contributions and dollars raised as well as the top two most funded games.
+* [x] The Our Games section initially displays all games funded by Sea Monster Crowdfunding
+* [x] The Our Games section has three buttons that allow the user to display only unfunded games, only funded games, or all games.
 
 The following **optional** features are implemented:
 
@@ -34,7 +34,9 @@ GIF created with ...
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+The most challenging parts of building the app were most definitely going off directions after completing the required challenges and implementing my own features. Instead of having spoonfed instructions I was forced to look for my own solutions from the web to implement. Completely implementing any additional feature was a struggle as rarely did initial solutions result in the way I wanted, and it only took countless attempts of problem-solving and testing before finally getting the feature to work or scrapping the idea entirely.
+
+An honorable mention is the usage of arrow and reduce/filter functions as I was unfamiliar with the syntax and how they worked.
 
 ## License
 

@@ -19,12 +19,24 @@ body {
     margin-top: -10px;
 }
 
+.welcome-text {
+    text-align: center;
+}
+
+#description-container {
+    text-align: center;
+}
+
+.stats-text {
+    text-align: center;
+}
+
 .stats-container {
     display: flex;
     align-items: flex-start;
 }
 
-.stats-container:hover {
+.stats-card:hover {
     cursor: pointer;
     box-shadow: 0 0 30px lightblue;
 }
@@ -35,6 +47,14 @@ body {
     padding: 1%;
     margin: 1%;
     width: 100%;
+    text-align: center;
+}
+
+.games-text {
+    text-align: center;
+}
+
+.games-desc {
     text-align: center;
 }
 
