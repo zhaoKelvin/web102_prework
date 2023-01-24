@@ -46,14 +46,6 @@ function addGamesToPage(games) {
                                 <h3>${element.name}<br></h3>
                                 ${element.description}<br>`;
 
-        /*
-        const game_popup = document.createElement("div");
-        game_popup.classList.add("game-popup");
-        //game_popup.setAttribute("id", "current-game")
-        //game_popup.setAttribute("style", "display: none");
-        game_popup.innerHTML = `<p>${element.description}</p>`;
-        game_card.appendChild(game_popup);
-        */
         game_card.onmouseover = function() {
             game_card.innerHTML = `<img class="game-img" src=${element.img} />
                                     <h3>Pledged: ${element.pledged}<br>
@@ -69,7 +61,6 @@ function addGamesToPage(games) {
 
         // append the game to the games-container
         document.getElementById("games-container").append(game_card);
-        //document.getElementById("games-container").append(game_popup)
     }
 }
 

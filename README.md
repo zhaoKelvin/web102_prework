@@ -4,7 +4,7 @@ Submitted by: **Kelvin Zhao**
 
 **KrakenFunding** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
 
-Time spent: **9** hours spent in total
+Time spent: **11** hours spent in total
 
 ## Required Features
 
@@ -17,6 +17,7 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
+* [x] Filter buttons show indication of when they are hovered over and clicked.
 * [x] When an individual game is hovered over, reveal undisplayed text.
 
 ## Video Walkthrough
